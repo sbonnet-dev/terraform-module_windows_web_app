@@ -53,3 +53,8 @@ variable "owner" {
   description = "Owner name"
   default     = "SBO"
 }
+
+variable "service_plan_id" {
+    type = string
+    description = "Service Plan ID"
+}
